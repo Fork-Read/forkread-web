@@ -55,107 +55,55 @@ table {
 /* Reset CSS ends */
 
 /*
-========================================
-Fonts Used
-========================================
-*/
-
-@font-face {
-    font-family: "Futura Bk BT Book";
-    src: url("../fonts/tt0140m_.ttf");
-}
-
-/*
 =======================================
 HomePage CSS
 =======================================
 */
 
 body {
-    padding: 50px;
+    position: relative;
     background: #009688;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-    color: #00B7FF;
+    font: 14px 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-top: 80px; 
 }
 
 .logo {
     display: block;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.quote, .author {
     margin: auto;
     width: 400px;
+    text-align: left;
+    font-size: 16px;
 }
 
-.coming_soon {
-    margin: auto;
-    position: absolute;
-    top: 100px;
-    left: 0px;
+.quote {
+    margin-top: 80px;
+}
+
+.author {
+    text-align: right;
+}
+
+.coming-soon {
+    margin-top: 100px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.banner {
+    position: fixed;
     right: 0px;
     bottom: 0px;
-    max-width: 400px;
-    min-width: 300px;
-    height: 250px;
 }
 
-.coming_soon > div {
-    margin-top: 10px;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: "Futura Bk BT Book";
-    font-size: 1.3em;
-    font-style: italic;
-    background: rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    border-radius: 4px;
-}
-
-.coming_soon_button {
-    margin: auto;
-    margin-top: 70px;
-    display: block;
-    padding: 15px;
-    color: #FFFFFF;
-    background: #DF4A32;
-    border: none;
-    border-radius: 4px;
-    font-family: "Futura Bk BT Book";
-    font-size: 1.3em;
-}
-
-input {
-    padding: 8px 4px;
-    border-radius: 4px;
-    border: none;
-    width: 200px;
-    font-size: 0.9em;
-    color: #424242;
-}
-
-.count-me-in {
-    padding: 7px 5px;
-    color: #FFFFFF;
-    background: #DF4A32;
-    margin-left: 5px;
-    border: none;
-    border-radius: 4px;
-    font-family: "Futura Bk BT Book";
-    font-size: 1em;
-}
-
-.count-me-in:hover {
-    cursor: pointer;
-}
-
-.error, .success {
-    background-color: #F44336;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    display: none;
-}
-
-.success {
-    background-color: #4CAF50;
-    display: none;
+.banner img  {
+    width: 100px;
+    height: auto;
 }
