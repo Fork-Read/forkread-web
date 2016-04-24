@@ -96,14 +96,3 @@ body {
     text-align: center;
     font-weight: normal;
 }
-
-.banner {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-}
-
-.banner img  {
-    width: 80px;
-    height: auto;
-}
